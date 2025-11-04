@@ -41,4 +41,20 @@ The Chart.yaml file is the main file containing the metadata about the chart. Es
 
 **dependencies:** A list of chart dependencies.
 
+# 4. What is the purpose of the values.yaml file?
+## Answer:
+The values.yaml file provides the default configuration values for the chart. It's the primary mechanism for customizing a chart without modifying its templates. Users can override these values via a custom values file or the --set flag during helm install or helm upgrade.
 
+# 5. Explain how Helm templates work. What is the syntax?
+## Answer:
+Helm uses the Go template language, extended by the Sprig library of utility functions.
+
+**Delimiters:** {{ ... }} enclose template actions.
+
+**Accessing Values:** Values from values.yaml are accessed using the .Values object. For example, .Values.image.repository.
+
+**Control Structures:** Includes loops (range), conditionals (if/else), and with statements.
+
+**Built-in Objects:** .Values, .Chart, .Release, .Capabilities, and .Template provide context.
+
+**Pipelines (|):** Used to chain functions, e.g., {{ .Values.name | upper | quote }}.
