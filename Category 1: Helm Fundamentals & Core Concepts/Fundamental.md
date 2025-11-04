@@ -13,10 +13,10 @@ A Helm Release is an instance of a Chart deployed to a Kubernetes cluster. Every
 The primary benefit is simplified application deployment and management. Charts provide reusability, consistency across environments, dependency management, and easy rollback capabilities.
 # 5.  why is it used in the Kubernetes ecosystem?
 ## Answer:
-Simplification: Manages complex applications with multiple components (e.g., Deployments, Services, ConfigMaps).
+**Simplification**: Manages complex applications with multiple components (e.g., Deployments, Services, ConfigMaps).
 
-Reusability: Charts are reusable and configurable, allowing you to deploy the same application in different environments (dev, staging, prod) with different settings.
+**Reusability**: Charts are reusable and configurable, allowing you to deploy the same application in different environments (dev, staging, prod) with different settings.
 
-Versioning: Allows easy rollbacks to previous versions of an application.
+**Versioning**: Allows easy rollbacks to previous versions of an application.
 
-"Sharing": Public charts are available in repositories like Artifact Hub, making it easy to deploy common software.
+**Sharing**: Public charts are available in repositories like Artifact Hub, making it easy to deploy common software.
