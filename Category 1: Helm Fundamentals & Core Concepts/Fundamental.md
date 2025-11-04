@@ -19,4 +19,4 @@ The primary benefit is simplified application deployment and management. Charts 
 
 **Versioning**: Allows easy rollbacks to previous versions of an application.
 
-**Sharing**: Public charts are available in repositories like Artifact Hub, making it easy to deploy common software.
+< Sharing >: Public charts are available in repositories like Artifact Hub, making it easy to deploy common software.
