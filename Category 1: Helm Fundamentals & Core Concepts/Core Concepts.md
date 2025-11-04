@@ -21,4 +21,5 @@ Helm 3 removed Tiller entirely, adopting a client-only architecture. Now, the He
 # 4. What are the differences between Helm 2 and Helm 3?
 ## Answer:
 **Helm 2 used Tiller** (a server-side component) for releases, which had security issues due to RBAC. 
+
 **Helm 3 removed Tiller**, making it client-only, improved release management with CRDs, and uses three-way merge for upgrades.
